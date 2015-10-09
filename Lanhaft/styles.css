@@ -1,0 +1,90 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+  background-color: #eee;
+  font-family: 'Lora', serif;
+}
+.row{
+  margin-right: 0px;
+}
+.logo{
+  font-size: 30px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+address{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.nav{
+  margin: auto; 
+  text-align: center;
+  float: align;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.nav  li{
+ display: inline-block;
+}
+.nav  li a{
+ color: white;
+}
+.nav li a:hover{
+  background-color: rgba(255, 255, 255, 0);
+  text-decoration: underline;
+}
+#menu-collapse{
+  background: #20A67D;
+  color: white;
+}
+.item img {
+  width: 100%;
+}
+h3{
+  margin-bottom: 40px;
+}
+h6{
+  color: #20A67D;
+  padding-top: 15px;
+  text-decoration: underline;
+}
+.thumb {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+@media screen and (max-width: 320px){
+  .img-portfolio{
+    width: 100%;
+    margin: 0;
+    display: block;
+  }
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  color: white;
+  background-color: #303030;
+}
+@media screen and (max-width: 512px){
+ footer{
+  display: block;
+  height: 150px;
+ } 
+}
+footer .nav{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer .active{
+  color: #20A67D;
+}
+footer .nav li a:hover{
+  color: #20A67D;
+}
